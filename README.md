@@ -14,5 +14,6 @@ Built after reading this thread: http://www.reddit.com/r/Android/comments/33l0yy
 
 
 'Who' uses these excellent libaries:
-  https://github.com/rengwuxian/MaterialEditText
+
+  https://github.com/rengwuxian/MaterialEditText  
   https://github.com/afollestad/material-dialogs
