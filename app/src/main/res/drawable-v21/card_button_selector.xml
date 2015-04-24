@@ -1,0 +1,4 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/Accent" >
+    <item android:drawable="@drawable/card_button_selector_bg" />
+</ripple>

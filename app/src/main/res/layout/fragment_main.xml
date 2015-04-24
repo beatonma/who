@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/full_layout"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical"
+            android:id="@+id/from_account"
+            android:background="@color/Primary"
+            android:elevation="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/from_email_address"
+                android:hint="@string/from_email"
+                android:theme="@style/EditText"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/from_password"
+                android:inputType="textPassword"
+                android:hint="@string/from_password"
+                android:layout_below="@+id/from_email_address"
+                android:theme="@style/EditText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical"
+            android:id="@+id/to_account"
+            android:layout_below="@+id/from_account"
+            android:background="@color/Primary"
+            android:elevation="4dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/to"
+                android:textSize="16sp"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/to_address"
+                android:hint="@string/to_email"
+                android:theme="@style/EditText" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:id="@+id/send_progress"
+                android:background="@color/Transparent"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_below="@+id/to_account"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/button_test"
+            android:text="@string/button_test"/>
+
+        <Button
+            android:layout_width="96dp"
+            android:layout_height="48dp"
+            android:layout_alignTop="@+id/button_test"
+            android:layout_toLeftOf="@+id/button_test"
+            android:layout_toStartOf="@+id/button_test"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/button_preview"
+            android:text="@string/button_preview"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Who</string>
+    <string name="app_author">Michael Beaton</string>
+
+    <string name="action_help">Help</string>
+
+    <string name="from">From:</string>
+    <string name="from_email">GMail address</string>
+    <string name="from_password">Password</string>
+
+    <string name="to">To:</string>
+    <string name="to_email">Email address</string>
+
+    <string name="email_subject">Active accounts on your device</string>
+
+    <string name="button_preview">Preview</string>
+    <string name="button_test">Test</string>
+    <string name="hide_from_launcher">Hide from launcher</string>
+
+    <string name="ok">Got it</string>
+    <string name="instructions_title">Instructions</string>
+    <string name="instructions">Please use a throwaway GMail account for the \'from\' credentials! This app will not work correctly if the \'from\' account uses 2-step verification and <a href="https://www.google.com/settings/security/lesssecureapps">\'Less secure apps\'</a> must be enabled in the Google account settings.\n\nThe \'To\' address can be any valid email address.\n\nWhen all details have been entered you can invisibly trigger the email to send by starting the activity \'com.beatonma.who.Invisible\' from an app like Tasker.\n\nChoose \'Help\' from the overflow menu to see this dialog again.\n\nFor more help or anything else, please contact me via my <a href="https://plus.google.com/u/0/communities/113955537219140914914/stream/c69f9d2f-e956-4cae-938c-7a0444683c06">Google+ Community</a>.</string>
+</resources>

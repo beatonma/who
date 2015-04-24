@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryDark">@color/PrimaryDark</item>"
+        <item name="colorAccent">@color/Accent</item>
+        <item name="colorControlNormal">@color/White</item>
+        <item name="colorControlHighlight">@color/Accent</item>
+        <item name="colorControlActivated">@color/Accent</item>
+        <item name="android:textColorPrimary">@color/TextPrimary</item>
+        <item name="android:textColorSecondary">@color/TextSecondary</item>
+        <item name="android:windowBackground">@color/PrimaryDark</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/TextPrimary</item>
+        <item name="android:textColorHint">@color/TextSecondary</item>
+        <item name="met_textColor">@color/TextPrimary</item>
+        <item name="met_textColorHint">@color/TextSecondary</item>
+        <item name="met_baseColor">@color/Accent</item>
+        <item name="met_primaryColor">@color/Accent</item>
+        <item name="met_errorColor">@color/AccentDark</item>
+        <item name="met_floatingLabel">highlight</item>
+        <item name="met_floatingLabelTextColor">@color/AccentDark</item>
+        <item name="met_underlineColor">@color/AccentDark</item>
+    </style>
+</resources>

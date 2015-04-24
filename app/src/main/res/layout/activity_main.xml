@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/toolbar"
+        android:layout_alignParentTop="true" />-->
+
+    <include layout="@layout/toolbar" />
+
+    <!--<EditText
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/preview"
+        android:hint="@string/preview"
+        android:editable="false"/>-->
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/container"/>
+
+</LinearLayout>
