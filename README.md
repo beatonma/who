@@ -11,3 +11,8 @@ Built after reading this thread: http://www.reddit.com/r/Android/comments/33l0yy
 ...and particularly this comment: http://www.reddit.com/r/Android/comments/33l0yy/long_story_got_my_phone_back_after_losing_it_over/cqlvt7p
 
 'Access for less secure apps' settings page: https://www.google.com/settings/security/lesssecureapps
+
+
+Who uses these excellent libaries:
+  https://github.com/rengwuxian/MaterialEditText
+  https://github.com/afollestad/material-dialogs
