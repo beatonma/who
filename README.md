@@ -13,7 +13,6 @@ Built after reading this thread: http://www.reddit.com/r/Android/comments/33l0yy
 'Access for less secure apps' settings page: https://www.google.com/settings/security/lesssecureapps
 
 
-'Who' uses these excellent libaries:
-
+'Who' uses these excellent libaries:  
   https://github.com/rengwuxian/MaterialEditText  
   https://github.com/afollestad/material-dialogs
